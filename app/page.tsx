@@ -10,7 +10,7 @@ export default function HomePage() {
     <main className="home-page">
       <header className="site-header">
         <Link className="brand" href="/"><span className="brand-mark">GB</span><span>GARCÍA BAILLOS<small>PROPIEDADES</small></span></Link>
-        <nav><Link href="/catalog">Propiedades</Link><Link href="#nosotros">Nosotros</Link><Link href="#barrios">Barrios</Link></nav>
+        <nav><Link className="nav-active" href="/catalog">Propiedades</Link><Link href="#nosotros">Nosotros</Link><Link href="#barrios">Barrios</Link></nav>
         <a className="header-contact" href={whatsappLink()}>Hablemos <ArrowUpRight /></a><button className="menu-button" aria-label="Abrir menú"><Menu /></button>
       </header>
 
